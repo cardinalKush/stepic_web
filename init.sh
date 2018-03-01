@@ -15,3 +15,5 @@ sudo /etc/init.d/nginx restart
 #6) sudo /etc/init.d/nginx restart; или чтобы не сбросить соединения $ sudo nginx -s reload
 
 #curl -I http://localhost:80/some.file
+
+#default конфиг подключается поверх etc, поэтому нужно исключить повторениее http
